@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Boite à outils chy</string>
+
+    <string name="btn_valider">Valider</string>
+    <string name="btn_annuler">Annuler</string>
+
+    <string name="act_saisie">Page saisie</string>
+    <string name="info_saisie">Pas de texte saisi</string>
+    <string name="cons_saisie">Saisir ici votre texte</string>
+
+</resources>
