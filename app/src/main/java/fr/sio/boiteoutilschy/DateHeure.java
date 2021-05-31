@@ -25,6 +25,7 @@ public class DateHeure extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_date_heure);
 
+        //Page de saisie d'une date et d'une heure
         displayDate = (TextView) findViewById(R.id.affDate);
         displayHeure = (TextView) findViewById(R.id.affHeure);
 
