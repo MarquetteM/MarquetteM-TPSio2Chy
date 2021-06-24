@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BoiteÀOutilsChy">
-        <activity android:name=".DateHeure"></activity>
+        <activity android:name=".SaisieDate"></activity>
+        <activity android:name=".DateHeure" />
         <activity android:name=".SaisieActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

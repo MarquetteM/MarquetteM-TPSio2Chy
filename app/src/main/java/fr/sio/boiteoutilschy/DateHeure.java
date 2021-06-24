@@ -30,7 +30,7 @@ public class DateHeure extends AppCompatActivity {
         displayHeure = (TextView) findViewById(R.id.affHeure);
 
         calend = Calendar.getInstance();
-        aff = calend.get(Calendar.DAY_OF_MONTH) + "/" +calend.get(Calendar.MONTH) + "/" + calend.get(Calendar.YEAR);
+        aff = calend.get(Calendar.DAY_OF_MONTH) + "/" +calend.get(Calendar.MONTH)+1 + "/" + calend.get(Calendar.YEAR);
         displayDate.setText(aff);
         aff = calend.get(Calendar.HOUR_OF_DAY) + ":" + calend.get(Calendar.MINUTE);
         displayHeure.setText(aff);
